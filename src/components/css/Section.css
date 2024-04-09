@@ -1,0 +1,367 @@
+section {
+  max-width: 1100px;
+  margin: auto;
+}
+.about-us {
+  margin-top: 40px;
+}
+.information-me {
+  display: flex;
+}
+.information-block {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 30px 30px;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.1);
+}
+
+.photo-block {
+  white-space: nowrap;
+  margin-top: -15px;
+  padding: 35px;
+  color: #272648;
+}
+
+.photo-block img {
+  margin-top: 30px;
+  width: 120px;
+  height: 120px;
+}
+.my-skill {
+  max-width: 400px;
+  color: #272648;
+  margin-top: -10px !important;
+}
+
+.my-skill::before {
+  content: "";
+  width: 15px;
+  display: block;
+  height: 15px;
+  background: white;
+  position: relative;
+  top: 100px;
+  right: 35px;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.h1 {
+  margin-top: 90px;
+}
+.button {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+  padding: 13px 35px;
+  border-radius: 15px;
+  border: none;
+  background-color: #fe4d61;
+  font-family: "Roboto" sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 15px;
+  transition-duration: 0.4s;
+}
+.button:hover {
+  background-color: #da4859;
+  color: white;
+}
+.likes {
+  padding-top: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+}
+.icons-block {
+  display: flex;
+  gap: 6px;
+}
+.icon {
+  padding-top: 10px;
+  color: #272648;
+}
+.numbers p:nth-child(1) {
+  font-size: 26px;
+  color: #272648;
+}
+.numbers p:nth-child(2) {
+  white-space: nowrap;
+  color: #272648;
+}
+.box-developments {
+  display: flex;
+  gap: 2rem;
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+}
+.services h1 {
+  margin-top: 100px;
+  padding-left: 40px;
+  color: #272648;
+}
+.web-development {
+  border: none;
+  padding: 60px 10px;
+  border-radius: 20px;
+  background-color: #6c6ce6;
+  color: white;
+  max-width: 320px;
+}
+.web-development p {
+  position: relative;
+  top: 1rem;
+  color: white;
+}
+.backend-development {
+  border: none;
+  padding: 60px 10px;
+  border-radius: 20px;
+  background-color: #f8d74c;
+  max-width: 320px;
+}
+.backend-development p {
+  position: relative;
+  top: 1rem;
+}
+.mobile-development {
+  border: none;
+  padding: 60px 10px;
+  border-radius: 15px;
+  background-color: #ff4c61;
+  max-width: 320px;
+  color: white;
+}
+.mobile-development p {
+  position: relative;
+  top: 1rem;
+  color: white;
+}
+.contact {
+  text-align: center;
+  padding-top: 40px;
+  font-family: "Roboto" sans-serif;
+}
+.contact a {
+  color: red;
+  cursor: pointer;
+  position: relative;
+  transition-duration: 0.4s;
+}
+.contact a:hover {
+  color: rgb(209, 26, 26);
+}
+.skill-bar {
+  text-align: center;
+  margin-top: -40px;
+}
+.texture {
+  position: relative;
+  z-index: -999;
+  margin-top: -50px !important;
+  top: 32px !important;
+  left: -20px !important;
+  width: 40px !important;
+  height: 45px !important;
+}
+.frontend_logo {
+  margin-top: -25px;
+  width: 100px;
+  height: 90px;
+}
+.backend_logo {
+  margin-top: -25px;
+  width: 100px;
+  height: 90px;
+}
+.mobile_logo {
+  margin-top: -25px;
+  width: 100px;
+  height: 90px;
+}
+
+@media only screen and (max-width: 750px) {
+  /* Styles for tablets and mobile devices */
+  .information-me {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo-block {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .photo-block img {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .my-skill {
+    max-width: 100%;
+    margin-top: 20px !important;
+  }
+
+  .my-skill::before {
+    display: none;
+  }
+
+  .button {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 10px 25px;
+    font-size: 15px;
+    background-color: #fe4d61;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .likes {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .icons-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .icon {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #272648;
+  }
+
+  .numbers p:nth-child(1) {
+    font-size: 24px;
+    color: #272648;
+  }
+
+  .numbers p:nth-child(2) {
+    font-size: 14px;
+    color: #272648;
+  }
+
+  .box-developments {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 50px;
+  }
+
+  .services h1 {
+    margin-top: 50px;
+    padding-left: 20px;
+    color: #272648;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .web-development,
+  .backend-development,
+  .mobile-development {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+  }
+
+  .web-development h3,
+  .backend-development h3,
+  .mobile-development h3 {
+    margin-top: 20px;
+    color: #272648;
+    font-size: 20px;
+  }
+
+  .web-development p,
+  .backend-development p,
+  .mobile-development p {
+    margin-top: 10px;
+    color: #272648;
+    font-size: 14px;
+  }
+
+  .contact {
+    text-align: center;
+    padding-top: 40px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #272648;
+  }
+
+  .contact span {
+    color: red;
+    cursor: pointer;
+  }
+
+  .texture {
+    position: relative;
+    z-index: -1;
+    margin-top: -50px !important;
+    margin-left: -40px !important;
+    top: 32px !important;
+    left: -20px !important;
+    width: 40px !important;
+    height: 45px !important;
+    display: none;
+  }
+
+  .frontend_logo,
+  .backend_logo,
+  .mobile_logo {
+    margin-top: -25px;
+    width: 100px;
+    height: 90px;
+  }
+
+  .information-block {
+    width: 90%;
+    flex-direction: column-reverse;
+  }
+
+  .skill-bar {
+    width: 100%;
+  }
+
+  .box-developments {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 1090px) and (min-width: 750px) {
+  .information-block {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .scrollDown {
+    display: none;
+  }
+
+  .button {
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 980px) and (min-width: 750px) {
+  .likes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+}

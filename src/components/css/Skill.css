@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+.progress {
+	background-color: #d8d8d8;
+	border-radius: 20px;
+	position: relative;
+	margin: 18px 80px;
+	height: 8px;
+	width: 300px;
+}
+
+.skills_h {
+	margin-left: -220px;
+	color:#272648;
+}
+
+.skills_btn {
+	margin: 50px 590px;
+}
+
+.skilla:hover {
+	color: white;
+}
+
+
+
+.btns_shadow {
+    background: linear-gradient(145deg,#e2e8ec,#ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+    padding: 18px 25px;
+    border-radius: 6px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    height: fit-content;
+}
+
+.btns_shadow:hover {
+    /* margin-bottom: 10px; */
+    transform: translateY(-10px);
+    background: #ff014f;
+}
+.ics {
+	margin-left: 10px;
+}
+.frontend {
+	background-color:#FED05C;
+	box-shadow: 0 3px 3px -5px #FED05C, 0 2px 5px #FED05C;
+	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	justify-content: flex-end;
+	align-items:center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
+
+.backend {
+	background-color:#FF344A;
+	box-shadow: 0 3px 3px -5px #FF344A, 0 2px 5px #FF344A;
+	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	justify-content: flex-end;
+	align-items:center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
+
+.mobile {
+	background-color:#5958E2;
+	box-shadow: 0 3px 3px -5px #5958E2, 0 2px 5px #5958E2;
+	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	justify-content: flex-end;
+	align-items:center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
+
+.percentage {
+	color: #000;
+	margin-top: -55px;
+}
+
+@media (max-width: 768px) {
+	.progress {
+		margin-left: 5%;
+		height: 20px;
+		width: 270px;
+	}
+
+	.big-skill-div {
+		height: 240px;
+	}
+
+	.btn_for_skill {
+		display: none;
+	}
+}
+

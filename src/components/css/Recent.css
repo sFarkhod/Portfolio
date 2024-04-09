@@ -1,0 +1,165 @@
+.recent {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.recent-notice {
+  margin-top: 80px;
+  padding-left: 50px;
+  font-size: 23px;
+  color: #272648;
+}
+
+.texturerecent {
+  position: relative;
+  z-index: -1;
+  margin-top: -50px;
+  top: 110px;
+  left: 30px;
+  width: 40px;
+  height: 45px;
+}
+
+.experience-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 60px;
+}
+.academic-year,
+.about-study {
+  border: none;
+  padding: 40px 60px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  color: #272648;
+  box-shadow: 10px 10px 5px #efeff8;
+  flex-basis: calc(50% - 2.5rem);
+  margin-bottom: 2.5rem;
+}
+
+.study-icons,
+.present {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.academic-degree:nth-child(2),
+.academic-degree:nth-child(3) {
+  padding-bottom: 45px;
+}
+
+.academic-degree:nth-child(4) {
+  padding-bottom: 8px;
+}
+
+.web-designer:nth-child(1),
+.web-designer:nth-child(2),
+.web-designer:nth-child(3) {
+  padding-bottom: 45px;
+}
+
+.academic-degree h3,
+.web-designer h3 {
+  padding-bottom: 10px;
+}
+
+.forBorder {
+  position: absolute;
+  margin-left: -30px;
+  width: 1px;
+  height: 74%;
+  border-left: 2px solid #fe707f;
+}
+
+.academic-degree::before,
+.web-designer::before {
+  content: "\f19d";
+  font: normal normal normal 14px/1 FontAwesome;
+  position: absolute;
+  z-index: 99;
+  margin-left: -37px;
+  color: #fe707f;
+  width: 60px;
+  height: 60px;
+}
+
+.web-designer::before {
+  content: "\f0b1";
+  font: normal normal normal 14px/1 FontAwesome;
+}
+
+@media only screen and (max-width: 750px) {
+  .recent-notice {
+    margin-top: 40px;
+    padding-left: 20px;
+    /* font-size: 20px; */
+  }
+
+
+  .recent-works img {
+    display: none;
+    margin-left: 130px;
+    top: 62px;
+    /* margin-right: auto; */
+  }
+  
+  .recent-works h1{
+    text-align: center;
+  }
+
+  .texturerecent {
+    margin-top: -30px;
+    top: 70px;
+    left: 20px;
+    width: 30px;
+    height: 35px;
+  }
+
+  .experience-box {
+    margin-top: 40px;
+    gap: 1.5rem;
+  }
+
+  .experience-box {
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .academic-year,
+  .about-study {
+    width: 93%;
+    margin-bottom: 20px;
+  }
+
+  .academic-year > .forBorder {
+    height: 55% !important;
+  }
+
+  .about-study > .forBorder{
+    height: 59% !important;
+  }
+
+
+}
+
+@media only screen and (max-width: 390px) {
+  .academic-year > .forBorder {
+    height: 65% !important;
+  }
+
+  .about-study > .forBorder{
+    height: 72% !important;
+  }
+}
+
+
+@media (max-width: 1130px) and (min-width: 450px) {
+
+  .forBorder {
+    display: none;
+  }
+    
+}

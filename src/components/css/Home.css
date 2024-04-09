@@ -1,0 +1,113 @@
+.main {
+  /* background-color: var(--background); */
+  background: url(/src/components/assets/finalBGChanged.png);
+  height: 500px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+}
+.about-page {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  gap: 2rem;
+  font-weight: 500;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.image {
+  display: flex;
+  justify-content: center;
+}
+.image img {
+  width: 150px;
+  height: 150px;
+}
+.about-me {
+  margin-bottom: 70px;
+  position: relative;
+  z-index: 20;
+}
+.spheres-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  height: 500px;
+  overflow: hidden;
+}
+.about-me h1 {
+  padding-top: 5px;
+  font-family: "Roboto", cursive;
+  letter-spacing: 2px;
+}
+.about-me p {
+  padding: 10px 5px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Roboto" sans-serif;
+}
+.btn button {
+  cursor: pointer;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 15px;
+  background-color: #fe4b5f;
+  transition-duration: 0.4s;
+}
+.btn button:hover {
+  background-color: #da4859;
+  color: white;
+}
+.btn a {
+  text-decoration: none;
+  color: var(--white);
+  font-family: "Roboto" sans-serif;
+}
+.telegram, .linkedin, .instagram {
+  transition-duration: 0.4s;
+}
+.telegram:hover {
+  color: #27a7e7;
+}
+.linkedin:hover {
+  color: #0a66c2;
+}
+.instagram:hover {
+  color: #c13584;
+}
+
+.scrollDown {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 2222;
+  top: 70vh;
+}
+
+.scrollImg {
+  cursor: pointer;
+  margin-top: 15px;
+  width: 30px;
+  height: 30px;
+}
+
+.typewriter {
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 750px) {
+  .scrollDown {
+    display: none;
+  }
+}

@@ -1,0 +1,85 @@
+.client-title{
+    margin-top: 80px;
+    padding-left: 40px;
+    font-size: 23px;
+    color: #272648;
+}
+.review-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.review-image img{
+    width: 400px;
+    height: 100px;
+    margin-top: 80px;
+}
+.review-name{
+    padding-top: 10px;
+    font-family: 'Courgette', cursive;
+    color: #272648;
+}
+.review-note{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color:#B6B2CF;
+    font-family: "Roboto" sans-serif;
+}
+.review-block{
+    border:none;
+    padding: 25px 30px;
+    background-color:#FFFFFF;
+    border-radius:20px;
+    box-shadow: 10px 10px 5px #F5F4FC;
+    color:#B6B2CF;
+}
+.salom{
+    padding-top: 100px;
+}
+.textureReview {
+    position: relative;
+    z-index: -999;
+    margin-top: -50px !important;
+    top: 110px !important;
+    left: 15px !important;
+    width: 40px !important;
+    height: 45px !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #FF4C61 !important;
+}
+
+.swiper-pagination {
+    bottom: 5px !important;
+}
+
+.swiper-pagination-bullet {
+    background: #FF4C61 !important;
+    border-radius: 15% !important;
+    width: 20px !important;
+    height: 5px !important;
+}
+
+@media only screen and (max-width: 750px) {
+
+    .textureReview, .client-title {
+        margin-left: 90px !important;
+    }
+
+    .textureReview {
+        display: none !important;
+    }
+
+    .swiper-button-next {
+        top: 131px !important;
+    }
+
+    .swiper-button-prev {
+        top: 131px!important;
+    }
+
+}
+
+

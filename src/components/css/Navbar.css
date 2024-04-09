@@ -1,0 +1,129 @@
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color:var(--background);
+    border-bottom: solid #3A3959 1.5px;
+}
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 4rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    gap: 4rem;
+    list-style-type: none;
+}
+.links a{
+    text-decoration: none;
+    color: var(--white);
+}
+.links a:hover{
+    color:var(--yellow);
+    transition: all 0.6s;
+} 
+
+.logo {
+    position: relative;
+    z-index: 999;
+    margin-top: -29px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.open {
+    display: none;
+}
+
+.nav-link {
+    margin-left: 190px;
+}
+
+
+@media (max-width: 990px)  { /* smartphones, Android phones, landscape iPhone */ 
+    .navbar {
+        height: 7vh;
+    }
+    .container {
+        padding: 0;
+        padding-top: 1.5vh;
+    }
+
+    .links {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+
+    .nav-links-mobile {
+        position: absolute;
+        visibility: visible;
+        opacity: 1;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding-top: 55px;
+        box-shadow: rgba(50, 50, 93, 0.23) 0 50px 100px -20px, rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
+        left: 0;
+        top: 0;
+        transition: all 0.5s ease-in-out;
+        width: 100%;
+        height: 50vh;
+        background-color: white;
+        z-index: 9999;
+    }
+
+
+    .nav-links-mobile a{
+        text-decoration: none;
+        color: black;
+        padding: 5px;
+        border: 1px solid var(--yellow);
+        border-spacing: 25px;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+
+    .nav-links-mobile a:hover{
+        color:var(--yellow);
+        transition: all 0.6s;
+    } 
+
+    
+    .close, .open {
+        position: absolute;
+        top: 18px;
+        right: 20px;
+        color: white;
+        display: block;
+        font-size: 25px;
+        z-index: 99999;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .close {
+        right: 45%;
+    }
+
+    .close.home-btn {
+        color: white;
+        background-color: #ff014f;
+        border-radius: 50%;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        position: absolute;
+        right: 30px;
+    }
+    
+
+}

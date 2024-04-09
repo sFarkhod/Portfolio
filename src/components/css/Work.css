@@ -1,0 +1,154 @@
+.recent-update h1 {
+  margin-top: 100px;
+  padding-left: 30px;
+  color: #272648;
+}
+.recent-update {
+  padding-left: 20px;
+}
+.box-links {
+  margin-top: 40px;
+  display: flex;
+  gap: 3rem;
+  list-style-type: none;
+}
+.box-links a {
+  text-decoration: none;
+  padding-left: 30px;
+  color: #272648;
+  font-family: "Roboto" sans-serif;
+  font-weight: bold;
+}
+.recent-projects {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-content: center;
+}
+.projects-img {
+  padding: 30px 30px;
+  width: 350px !important;
+  height: 260px !important;
+  background: #fff !important;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.shadow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+  padding: 18px 25px;
+  margin-left: 10px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.work-image {
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+  transition: all 0.5s;
+}
+
+.btn {
+  justify-content: center;
+  align-items: center;
+}
+.learn {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.more {
+  background-color: #ff4c61;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: #fff;
+  transition-duration: 0.4s;
+}
+.more a {
+  text-decoration: none;
+  color: #fff;
+}
+.more:hover {
+  background-color: #da4859;
+  color: white;
+}
+.textureWork {
+  position: relative;
+  z-index: -999;
+  margin-top: -50px !important;
+  top: 130px !important;
+  left: 12px !important;
+  width: 40px !important;
+  height: 45px !important;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+.active {
+  color: #ff4c61 !important;
+}
+
+.projects-img {
+  overflow: hidden !important;
+}
+
+.projects-img:hover img {
+  transform: scale(1.3) !important;
+}
+.TooltipCustom {
+  max-width: 500px;
+  word-wrap: break-word;
+}
+
+@media only screen and (max-width: 768px) {
+  .TooltipCustom {
+    max-width: 300px !important;
+    white-space: pre-wrap !important;
+  }
+  .recent-update h1 {
+    margin-left: 110px;
+    margin-top: 50px !important;
+  }
+
+  .recent-update > .textureWork {
+    margin-left: 110px;
+    top: 82px !important;
+    display: none;
+  }
+
+  .recent-update {
+    padding: 0;
+  }
+
+  .box-links {
+    gap: 0;
+    margin-left: 2%;
+  }
+
+  .recent-projects {
+    padding-left: 5%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 1090px) and (min-width: 750px) {
+  .recent-projects {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .TooltipCustom {
+    max-width: 400px !important;
+    white-space: pre-wrap !important;
+  }
+}

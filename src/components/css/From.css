@@ -1,0 +1,146 @@
+.touch-title {
+  margin-top: 80px;
+  padding-left: 45px;
+  font-size: 23px;
+  color: #272648;
+}
+
+.touch-box,
+.form-box {
+  display: flex;
+  justify-content: space-between;
+}
+.touch-box {
+  margin-top: 50px;
+  color: #2a294b;
+}
+.touch-box p {
+  margin-top: 10px;
+}
+.touch-box p span {
+  color: #fe828c;
+}
+.form-box {
+  margin-top: 10px;
+}
+.name-box {
+  display: flex;
+  gap: 1rem;
+}
+.name-box input {
+  padding: 15px 45px;
+  border-radius: 25px;
+  border: none;
+  background-color: #ffffff;
+  color: #c6c4d9;
+}
+.subject-box {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.subject-box input {
+  padding: 15px 45px;
+  border-radius: 25px;
+  border: none;
+  background-color: #ffffff;
+  color: #c6c4d9;
+}
+.subject-box textarea {
+  border-radius: 25px;
+  resize: none;
+  border: none;
+  margin-top: 30px;
+}
+.box-btn {
+  margin-top: 30px;
+  padding: 10px 25px;
+  background-color: #fe4b60;
+  color: #fff;
+  border-radius: 15px;
+  border: none;
+  transition-duration: 0.4s;
+}
+.box-btn:hover {
+  background-color: #da4859;
+  color: white;
+}
+.textureForm {
+  position: relative;
+  z-index: -999;
+  margin-top: -50px !important;
+  top: -15px !important;
+  left: 20px !important;
+  width: 40px !important;
+  height: 45px !important;
+}
+
+.everything-box {
+  margin-left: 30px;
+}
+
+input {
+  border: none;
+  background-color: #ffffff;
+  color: #c6c4d9;
+  box-shadow: 10px 10px 5px #efeff8;
+}
+
+input:focus {
+  color: #272648;
+  outline: 1px solid #272648;
+}
+
+textarea {
+  border: none;
+  background-color: #ffffff;
+  color: #c6c4d9;
+  box-shadow: 10px 10px 5px #efeff8;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+
+textarea:focus {
+  color: #272648;
+  outline: 1px solid #272648;
+}
+
+textarea::placeholder {
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+
+@media only screen and (max-width: 750px) {
+  .touch-title,
+  .textureForm {
+    margin-left: 110px;
+  }
+
+  .everything-box {
+    margin-left: 15px !important;
+    width: 20%;
+  }
+
+  .form-box {
+    margin-left: 30px;
+  }
+
+  .name-box {
+    flex-direction: column;
+  }
+
+  .touch-box {
+    justify-content: flex-start;
+  }
+
+  .subject-box {
+    padding-top: 20px !important;
+    gap: 0;
+  }
+
+  .textureForm {
+    display: none !important;
+  }
+}
