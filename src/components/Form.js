@@ -7,7 +7,7 @@ export default function Form() {
   return (
     <>
       <h1 className="touch-title">Get In Touch</h1>
-      <img className="textureForm" src={textureForm} />
+      <img className="textureForm" src={textureForm} alt="texture"/>
 
       <div className="big-box" id="form">
         <div className="touch-box">

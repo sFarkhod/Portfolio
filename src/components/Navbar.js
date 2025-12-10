@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./css/Navbar.css";
 import logo from "../components/assets/logo.png";
-import { Link, animateScroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 export default function Navbar() {
   const [Mobile, setMobile] = useState(false);
@@ -11,7 +11,7 @@ export default function Navbar() {
       <nav className="navbar">
         <div className="container">
           <div className="logo">
-            <img src={logo} />
+            <img src={logo} alt="logo" />
           </div>
           <div className="nav-link">
             <ul
@@ -69,10 +69,10 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <a href="#">Blog</a>
+                <a>Blog</a>
               </li>
               <li>
-                <a href="https://t.me/softprogrammer" target="_blank">Contact</a>
+                <a href="https://t.me/softprogrammer" target="_blank" rel="noopener">Contact</a>
               </li>
             </ul>
           </div>

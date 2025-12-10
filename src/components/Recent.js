@@ -7,7 +7,7 @@ export default function Recent() {
     <>
       <section id="recent">
         <div className="recent-works">
-          <img className="texturerecent" src={texturaRecent} />
+          <img className="texturerecent" src={texturaRecent} alt="texture"/>
           <h1 className="recent-notice">Experience</h1>
           <div className="experience-box">
             <div className="academic-year">

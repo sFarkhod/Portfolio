@@ -3,7 +3,7 @@ import "./css/Work.css";
 import WorkCard from "./WorkCard";
 import textureWork from "../components/assets/texture.png";
 
-export default function () {
+export default function Work () {
   const [data, setData] = useState([]);
   const [filter, setFilter] = useState(data);
   const [first, setFirst] = useState("0");

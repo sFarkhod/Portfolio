@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./css/Home.css";
 import avatar from "./assets/image.png";
 import scroll from "./assets/scrollDown/icons8-mouse-92.png";
-import { Link, animateScroll } from "react-scroll";
+import { Link } from "react-scroll";
 import { Typewriter } from "react-simple-typewriter";
 import { useSpring, useSprings, animated } from "@react-spring/web";
 

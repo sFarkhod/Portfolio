@@ -19,9 +19,9 @@ export default function Section() {
         <div className="about-us">
           <div className="information-me">
             <div className="photo-block">
-              <img className="texture" src={texture} />
+              <img className="texture" src={texture} alt="texture"/>
               <h1>About Me</h1>
-              <img src={picture} />
+              <img src={picture} alt="picture"/>
             </div>
             <div className="information-block">
               <div className="my-skill">
@@ -84,7 +84,7 @@ export default function Section() {
           <h1>Services</h1>
           <div className="box-developments">
             <div className="web-development">
-              <img className="frontend_logo" src={frontend} />
+              <img className="frontend_logo" src={frontend} alt="frontend"/>
               <h3>Frontend development</h3>
               <p>
                 Front-end web development is the development of the graphical
@@ -93,7 +93,7 @@ export default function Section() {
               </p>
             </div>
             <div className="backend-development">
-              <img className="backend_logo" src={backend} />
+              <img className="backend_logo" src={backend} alt="backend"/>
               <h3>Backend development</h3>
               <p>
                 Back-end development includes the server implementation and it
@@ -102,7 +102,7 @@ export default function Section() {
               </p>
             </div>
             <div className="mobile-development">
-              <img className="mobile_logo" src={mobile} />
+              <img className="mobile_logo" src={mobile} alt="mobile"/>
               <h3>Mobile development</h3>
               <p>
                 Mobile app development is the act or process by which a mobile
@@ -112,7 +112,7 @@ export default function Section() {
             </div>
           </div>
           <p className="contact">
-            Looking for a custom job ? <a href="https://t.me/softprogrammer" target="_blank">Click here</a> to contact me !
+            Looking for a custom job ? <a href="https://t.me/softprogrammer" target="_blank" rel="noopener">Click here</a> to contact me !
             👋
           </p>
         </div>

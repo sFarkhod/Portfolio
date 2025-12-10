@@ -3,7 +3,7 @@ import "./css/Reviews.css";
 import picture from "../components/assets/asygurme.png";
 import ultra from "../components/assets/Ultra.png";
 import textureReview from "../components/assets/texture.png";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+import { Navigation, Pagination, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -13,7 +13,7 @@ import "swiper/css/scrollbar";
 export default function Reviews() {
   return (
     <>
-      <img className="textureReview" src={textureReview} />
+      <img className="textureReview" src={textureReview} alt="texture"/>
       <h1 className="client-title">Clients & Reviews</h1>
 
       <Swiper
@@ -27,7 +27,7 @@ export default function Reviews() {
           <div className="clients">
             <div className="review-profile">
               <div className="review-image">
-                <img src={picture} />
+                <img src={picture} alt="picture"/>
                 <h1 className="review-name">ASYA GURME</h1>
                 <p className="review-note">Shop</p>
                 <p className="review-block">
@@ -44,7 +44,7 @@ export default function Reviews() {
           <div className="clients">
             <div className="review-profile">
               <div className="review-image">
-                <img src={ultra} />
+                <img src={ultra} alt="ultra"/>
                 <h1 className="review-name">Ultra Orgin Beton</h1>
                 <p className="review-note">Construction Company</p>
                 <p className="review-block">
